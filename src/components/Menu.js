@@ -30,11 +30,11 @@ const Navigate = ({open, setOpen}) => {
     return (
         <div className={"header__menu" + (open ? " header__menu_open" : "")}>
             <img onClick={handleClose} className="header__menu_close" src={menuCloseIcon} alt="close"></img>
-            <ul className="header__menu__list">
+            <div className="header__menu__list">
                 <div className="header__menu__feature-list-container">
-                    <li onClick={handleFeatureToggle} className="header__menu__item">Features
+                    <div onClick={handleFeatureToggle} className="header__menu__item">Features
                         <img onClick={handleFeatureToggle} className="header__menu__arrow" src={featureOpen ? arrowUp : arrowDown} alt="arrow"></img>
-                    </li>
+                    </div>
                     {
                         featureOpen && 
 
@@ -60,9 +60,9 @@ const Navigate = ({open, setOpen}) => {
                     }
                 </div>
                 <div className="header__menu__company-list-container">
-                    <li onClick={handleCompanyToggle} className="header__menu__item">Company
+                    <div onClick={handleCompanyToggle} className="header__menu__item">Company
                         <img onClick={handleCompanyToggle} className="header__menu__arrow" src={companyOpen ? arrowUp : arrowDown} alt="arrow"></img>
-                    </li>
+                    </div>
                     {
                         companyOpen && 
 
@@ -74,9 +74,9 @@ const Navigate = ({open, setOpen}) => {
 
                     }
                 </div>
-                <li className="header__menu__item">Careers</li>
-                <li className="header__menu__item">About</li>
-            </ul>
+                <div className="header__menu__item">Careers</div>
+                <div className="header__menu__item">About</div>
+            </div>
             <div className="header__menu__login">
                 <div className="header__menu__login-button">Login</div>
                 <button className="header__menu__register-button">Register</button>
