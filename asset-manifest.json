@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "./static/css/main.a8eae567.css",
-    "main.js": "./static/js/main.7fd30744.js",
+    "main.js": "./static/js/main.e36257fb.js",
     "static/media/image-hero-desktop.png": "./static/media/image-hero-desktop.50cc22fddeb0c072b414.png",
     "static/media/Epilogue-Bold.ttf": "./static/media/Epilogue-Bold.6b610bff2224fb46a1e1.ttf",
     "static/media/Epilogue-Medium.ttf": "./static/media/Epilogue-Medium.b5d105e499fdbc4b99ab.ttf",
@@ -21,10 +21,10 @@
     "static/media/icon-arrow-down.svg": "./static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "./static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
     "main.a8eae567.css.map": "./static/css/main.a8eae567.css.map",
-    "main.7fd30744.js.map": "./static/js/main.7fd30744.js.map"
+    "main.e36257fb.js.map": "./static/js/main.e36257fb.js.map"
   },
   "entrypoints": [
     "static/css/main.a8eae567.css",
-    "static/js/main.7fd30744.js"
+    "static/js/main.e36257fb.js"
   ]
 }
