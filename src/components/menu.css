@@ -1,0 +1,209 @@
+.header__menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 36%;
+    bottom: 0;
+    background-color: white;
+    display: none;
+    color: var(--Medium-Gray);
+}
+
+.header__menu_open {
+    display: block;
+}
+
+.header__menu_close {
+    position: absolute;
+    top: 1.3em;
+    right: 1.2em;
+}
+
+.header__menu__list {
+    margin-top: 5.1em;
+    list-style: none;
+    padding-left: 1.5em;
+    margin-bottom: 2.35em;
+}
+
+.header__menu__item {
+    margin-bottom: 1.6em;
+}
+
+
+.header__menu__arrow {
+    margin-left: 1em;
+}
+
+.header__menu__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__menu__login-button {
+    font-family: "Epilogue";
+    font-size: 0.9em;
+    margin-bottom: 1.15em;
+}
+
+.header__menu__register-button {
+    font-family: "Epilogue";
+    font-size: 0.88em;
+    padding: 0.85em 4.75em;
+    border: 2px solid var(--Medium-Gray);
+    border-radius: 14px;
+    margin-left: 0.3em;
+    background-color: white;
+    color: var(--Medium-Gray);
+}
+
+.header__menu__feature-list {
+    list-style: none;
+    padding-left: 3.55em;
+    padding-top: 0.48em;
+    padding-bottom: 0.5em;
+}
+
+.header__menu__feature-item {
+    font-size: 1.02em;
+    margin-bottom: 1.55em;
+    position: relative;
+}
+
+.header__menu__feature-icon {
+    position: absolute;
+    right: 10.67em;
+    top: -0.1em;
+    height: 1.2em;
+}
+
+.header__menu__company-list {
+    list-style: none;
+    padding-top: 0.1em;
+    padding-left: 1.5em;
+    padding-bottom: 0.5em;
+}
+
+.header__menu__company-item {
+    margin-bottom: 1.55em;
+    font-size: 1.01em;
+}
+
+@media (min-width: 800px) {
+    .header__menu {
+        display: flex;
+        position: static;
+        justify-content: space-between;
+        padding-left: 2.43em;
+        width: 100%;
+        background: none;
+    }
+
+    .header__menu__list {
+        padding-top: 2.2em;
+        display: flex;
+        margin-top: 0;
+    }
+
+    .header__menu__item {
+        margin-right: 2.8em;
+        font-size: 0.88em;
+        margin-bottom: 0;
+        cursor: pointer;
+    }
+
+    .header__menu__item:hover {
+        color: var(--Almost-Black);
+    }
+
+    .header__menu__arrow {
+        margin-left: 0.52em;
+    }
+
+    .header__menu__feature-list-container {
+        position: relative;
+    }
+
+    .header__menu__feature-list {
+        position: absolute;
+        background-color: white;
+        top: 2.2em;
+        right: 2.45em;
+        padding-top: 1.55em;
+        padding-right: 1.55em;
+        padding-left: 3.4em;
+        border-radius: 10px;
+        box-shadow: 0px 5px 23px -10px var(--Medium-Gray);
+    }
+
+    .header__menu__feature-item {
+        font-size: 0.88em;
+        margin-bottom: 1.25em;
+        cursor: pointer;
+    }
+
+    .header__menu__feature-item:hover {
+        color: var(--Almost-Black);
+    }
+
+    .header__menu__feature-icon {
+        right: 6.3em;
+    }
+
+    .header__menu__company-list-container {
+        position: relative;
+    }
+    
+    .header__menu__company-list {
+        position: absolute;
+        padding-top: 1.55em;
+        padding-right: 1.55em;
+        padding-left: 1.55em;
+        top: 2.2em;
+        background-color: white;
+        border-radius: 11px;
+        box-shadow: 0px 5px 23px -10px var(--Medium-Gray);
+    }
+
+    .header__menu__company-item {
+        font-size: 0.9em;
+        margin-bottom: 1.22em;
+        cursor: pointer;
+    }
+
+    .header__menu__company-item:hover {
+        color: var(--Almost-Black);
+    }
+
+    .header__menu_close {
+        display: none;
+    }
+
+    .header__menu__login {
+        flex-direction: row;
+        padding-right: 1.5em;
+    }
+
+    .header__menu__login-button {
+        margin-bottom: 0;
+        margin-right: 2.5em;
+        cursor: pointer;
+    }
+
+    .header__menu__login-button:hover {
+        color: var(--Almost-Black);
+    }
+
+    .header__menu__register-button {
+        padding-left: 1.45em;
+        padding-right: 1.45em;
+        cursor: pointer;
+        background: none;
+    }
+
+    .header__menu__register-button:hover {
+        color: var(--Almost-Black);
+        border: 2px solid var(--Almost-Black);
+    }
+}

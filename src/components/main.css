@@ -1,0 +1,63 @@
+.main {
+    text-align: center;
+    padding: 0.8em 1em;
+    margin-bottom: 2.2em;
+}
+
+.main__title {
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+    color: var(--Almost-Black);
+}
+
+.main__paragraph {
+    font-size: 1em;
+    line-height: 1.62;
+    margin-bottom: 1.5em;
+    color: var(--Medium-Gray);
+}
+
+.main__button {
+    border: none;
+    padding: 1.05em 1.5em 0.95em;
+    font-family: "Epilogue";
+    font-size: 1em;
+    border-radius: 1.1em;
+    background-color: var(--Almost-Black);
+    color: var(--Almost-White);
+}
+
+@media (min-width: 800px) {
+    .main {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+        text-align: start;
+        padding: 6.5em 8.5em 3em 2.2em;
+    }
+
+    .main__title {
+        font-size: 4.9em;
+        margin-bottom: 0.62em;
+    }
+
+    .main__paragraph {
+        font-size: 1.132em;
+        line-height: 1.55;
+        padding-right: 5em;
+        margin-bottom: 2.85em;
+    }
+
+    .main__button {
+        font-size: 1.13em;
+        padding: 1.1em 1.6em 0.95em 1.75em;
+        border-radius: 14px;
+        cursor: pointer;
+    }
+
+    .main__button:hover {
+        background: none;
+        color: var(--Almost-Black);
+        border: 1px solid var(--Almost-Black);
+        padding: 1em 1.5em 0.95em 1.75em;
+    }
+}

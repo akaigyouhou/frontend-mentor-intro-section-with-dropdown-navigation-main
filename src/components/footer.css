@@ -1,0 +1,55 @@
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 5.8em;
+}
+
+.footer__icon_databiz {
+    width: 5.1em;
+}
+
+.footer__icon_audiophile {
+    width: 3.2em;
+}
+
+.footer__icon_meet {
+    width: 4em;
+}
+
+.footer__icon_maker {
+    width: 3.7em;
+}
+
+@media (min-width: 800px) {
+    .footer {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        padding-right: 11.7em;
+        padding-top: 1.6em;
+        padding-left: 2.2em;
+        padding-bottom: 2em;
+        justify-content: space-between;
+    }
+
+    .footer__icon {
+        cursor: pointer;
+    }
+
+    .footer__icon_databiz {
+        width: 7.1em;
+    }
+    
+    .footer__icon_audiophile {
+        width: 4.4em;
+    }
+    
+    .footer__icon_meet {
+        width: 5.5em;
+    }
+    
+    .footer__icon_maker {
+        width: 5.1em;
+    }
+    
+}

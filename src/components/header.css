@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 4.3em;
+    padding: 0 1em;
+    margin: 0 0 0.4em;
+}
+
+.header__logo {
+    margin-top: 0.3em;
+    height: 1.65em;
+}
+
+.header__filter {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    opacity: 70%;
+    display: none;
+}
+
+.header__filter_open {
+    display: block;
+}
+
+@media (min-width: 800px) {
+    .header {
+        justify-content: normal;
+        padding-left: 2.6em;
+        padding-top: 1em;
+    }
+    .header__menu-open {
+        display: none;
+    }
+}
